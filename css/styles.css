@@ -496,12 +496,13 @@ a {
 }
 .footer-subscribe-form {
   display: flex;
+  gap 24px 
 }
 .footer-subscribe-label {
   gap 24px 
 }
 .footer-input{
-  стиль color #ffffff;
+  color #ffffff;
   width: 264px; 
   height: 40px;
   border: 1px solid #ffffff; 
@@ -512,6 +513,8 @@ a {
   padding-left: 16px;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15)); 
   border-radius: 4px;
+   line-height: 2;
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 .footer-button{
   color: #ffffff;
@@ -529,4 +532,10 @@ a {
   background-color: #4D5AE5;
   border: none;
   border-radius: 4px;
+}
+.footer-input::placeholder {
+  color: #ffffff;
+}
+.footer-svg{
+  margin-left: 16px; 
 }
