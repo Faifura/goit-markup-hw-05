@@ -486,6 +486,9 @@ a {
 .footer-link-media:focus {
   background-color: #31d0aa;
 }
+.footer-sub {
+  margin-right: 80px;
+}
 .footer-subscribe {
   color: #ffffff;
   margin-bottom: 16px;
