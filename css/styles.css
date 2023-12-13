@@ -649,3 +649,6 @@ a {
 .rewiew-form-input-mame-icon:focus {
   fill: #4d5ae5;
 }
+.rewiew-form-item {
+  position: relative;
+}
