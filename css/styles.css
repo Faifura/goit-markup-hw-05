@@ -616,7 +616,7 @@ a {
   margin-bottom: 16px;
 }
 .rewiew-form-field-wrapper {
-  margin-bottom: 8px;
+  margin-bottom: 10px;
 }
 .rewiew-form-field-label {
   font-size: 12px;
@@ -677,7 +677,7 @@ a {
   letter-spacing: 0.04em;
   color: #8e8f99;
 }
-.custom-class-name {
+.rewiew-form-own-chekbox {
   width: 16px;
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
@@ -690,5 +690,6 @@ a {
   justify-content: center;
   fill: transparent;
 }
-.custom-class-name-icon {
+
+.rewiew-form-own-chekbox {
 }
