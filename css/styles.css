@@ -646,9 +646,10 @@ a {
   transform: translateY(-50%);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.rewiew-form-input-mame-icon:focus {
+.rewiew-form-input:focus + .rewiew-form-input-mame-icon {
   fill: #4d5ae5;
 }
+
 .rewiew-form-item {
   position: relative;
 }
