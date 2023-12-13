@@ -695,9 +695,9 @@ a {
 }
 .rewiew-form-own-chekbox {
 }
-.rewiew-form-chekbox:checked + .label-class > .span-class {
+.rewiew-form-chekbox:checked
+  + .rewiew-form-chekbox-label
+  > .rewiew-form-own-chekbox {
   background-color: #404bbf;
   border: none;
-  fill: #ffffff;
-  border-color: #404bbf;
 }
