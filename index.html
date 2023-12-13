@@ -582,7 +582,7 @@
       </div>
     </footer>
      <!--modal window -->
-    <div class="modal-container">
+    <div class="backdrop is-open">
       <div class="modal">
          <button class="modal-close-btn" type="button">
           <svg class="modal-close-btn-icon" width="8" height="8" aria-lable="close model icon">
@@ -594,8 +594,8 @@
           Leave your contacts and we will call you back
         </p>
         <div class="modal-element">
-          <label class="form-lable" for="user-name">Name</label></div>
-      
+          <label class="form-lable" for="user-name"></label>
+        </div>
         </div>
        
         <p class="rewiew-form-description"></p>
@@ -604,25 +604,26 @@
           <label class="rewiew-form-field-label" for="user-name">Name</label> 
           <input class="rewiew-form-input" id="user-name" name="user-name" type="text"
           pattern=""
-          title="" />
+          title="" 
+          required/>
           </div>
            <div class="rewiew-form-field wrapper">
-          <label class="rewiew-form-field-label" for="" >Phone</label> 
-          <input class="rewiew-form-input" id="" name="" type="text" />
+          <label class="rewiew-form-field-label" for="user-phone">Phone</label> 
+          <input class="rewiew-form-input" id="user-tel" name="user-tel" type="tel" required  />
           </div>
            <div class="rewiew-form-field wrapper">
-          <label class="rewiew-form-field-label" for="" >Email</label> 
-          <input  class="rewiew-form-input" id="" name="" type="text"/>
+          <label class="rewiew-form-field-label" for="user-email" >Email</label> 
+          <input  class="rewiew-form-input" id="user-email" name="user-email" type="email" required/>
           </div>
            <div class="rewiew-form-field wrapper">
-          <label class="rewiew-form-field-label" for="" >Comment</label> 
-          <textarea name="" id="" cols="" rows="" class="rewiew-form-comment"
-            placeholder="Text input">
+          <label class="rewiew-form-field-label" for="user-comment" >Comment</label> 
+          <textarea  class="rewiew-form-comment" id="user-comment" name="user-comment" 
+            placeholder="Text input" required>
           </textarea>
           </div>
           <div class="rewiew-form-checkbox-wrapper">
-            <input type="checkbox" class="rewiew-form-chekbox"/>
-            <label for="" class="rewiew-form-chekbox-label">I accept the terms and conditions of the <a href="">Privacy Policy</a></label>
+            <input  class="rewiew-form-chekbox" id="user-privacy-policy" name="user-privacy-policy"  type="chekbox" value="true" required/>
+            <label for="user-privacy-policy" class="rewiew-form-chekbox-label">I accept the terms and conditions of the <a href="">Privacy Policy</a></label>
           </div>
           <button class="rewiew-form-submit-btn" type="submit">Send</button>
           </div>
