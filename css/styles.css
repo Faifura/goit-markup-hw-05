@@ -690,6 +690,14 @@ a {
   justify-content: center;
   fill: transparent;
 }
-
+.rewiew-form-checkbox-wrapper {
+  margin-bottom: 24px;
+}
 .rewiew-form-own-chekbox {
+}
+.rewiew-form-chekbox:checked + .label-class > .span-class {
+  background-color: #404bbf;
+  border: none;
+  fill: #ffffff;
+  border-color: #404bbf;
 }

@@ -629,6 +629,10 @@
            <div class="rewiew-form-field-wrapper">
           <label class="rewiew-form-field-label" for="user-comment" >Comment</label> 
            <div class="rewiew-form-item">
+           </div>
+          
+           
+          <div>
           <textarea  class="rewiew-form-comment" id="user-comment" name="user-comment" 
             placeholder="Text input" required>
           </textarea>
@@ -638,24 +642,23 @@
 
           <div class="rewiew-form-checkbox-wrapper">
             <input  
-            class="rewiew-form-chekbox"
+            class="rewiew-form-chekbox visually-hidden"
              id="user-privacy"
              name="user-privacy"
-               type="chekbox"
-               value="true" 
+               type="checkbox"
+               value="true"
                required
                />
             <label class="rewiew-form-chekbox-label" for="user-privacy" >
-                <span class="rewiew-form-own-chekbox"></span>
+                <span class="rewiew-form-own-chekbox">
                 <svg class="custom-class-name-icon" width="10" height="8" aria-label="chekmark icon">
                   <use href="./images/symbol-defs-4.svg#icon-Property-1click"></use>
                   </svg>
-                  </label>
+                  </span>
                 
                  I accept the terms and conditions of the <a href="">Privacy Policy</a>
          </label>
           </div>
-          
 
           <button class="rewiew-form-submit-btn" type="submit">Send</button>
           </div>
