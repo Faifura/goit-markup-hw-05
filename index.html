@@ -583,15 +583,51 @@
     </footer>
     <div class="modal-container">
       <div class="modal">
-        <p></p>
+        <p class="modal-paragrapf">
+          Leave your contacts and we will call you back
+        </p>
+        <div class="modal-element">
+          <label class="form-lable" for="user-name">Name</label></div>
+          <form>
+            <!-- Вміст форми -->
+          </form>
+        </div>
         <button class="close-button" type="button">
           <svg class="button-svg" width="8" height="8">
             <use
-              href="/images/symbol-defs-4.svg#icon-close-black-18dp-2-1"
-            ></use>
+              href="/images/symbol-defs-4.svg#icon-close-black-18dp-2-1"></use>
           </svg>
         </button>
-      </div>
+        <p class="rewiew-form-description"></p>
+        <form class="rewiew-form">
+          <div class="rewiew-form-field wrapper">
+          <label class="rewiew-form-field-label" for="user-name">Name</label> 
+          <input class="rewiew-form-input" id="user-name" name="user-name" type="text"
+          pattern=""
+          title="" />
+          </div>
+           <div class="rewiew-form-field wrapper">
+          <label class="rewiew-form-field-label" for="" >Phone</label> 
+          <input class="rewiew-form-input" id="" name="" type="text" />
+          </div>
+           <div class="rewiew-form-field wrapper">
+          <label class="rewiew-form-field-label" for="" >Email</label> 
+          <input  class="rewiew-form-input" id="" name="" type="text"/>
+          </div>
+           <div class="rewiew-form-field wrapper">
+          <label class="rewiew-form-field-label" for="" >Comment</label> 
+          <textarea name="" id="" cols="" rows="" class="rewiew-form-comment"
+            placeholder="Text input">
+          </textarea>
+          </div>
+          <div class="rewiew-form-checkbox-wrapper">
+            <input type="checkbox" class="rewiew-form-chekbox"/>
+            <label for="" class="rewiew-form-chekbox-label">I accept the terms and conditions of the <a href="">Privacy Policy</a></label>
+          </div>
+          <button class="rewiew-form-submit-btn" type="submit">Send</button>
+          </div>
+        </form>
+      </body>
     </div>
   </body>
 </html>
